@@ -1,0 +1,27 @@
+/* READ THIS: rem and em do NOT depend on html font-size in media queries...
+Instead, 1rem = 1em = 16px */
+
+/* Take the desired breaking point in width and divide it by 16. Take calculated number, and round it if needed and use it as max-width(em) */
+
+/**************************/
+/* BELOW 544px (Pones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .container {
+    width: 30rem;
+    margin-top: 3rem;
+  }
+
+  .inputArea {
+    width: 25rem;
+  }
+
+  .addToListButton {
+    margin-top: 1rem;
+    width: 75%;
+    margin-left: 0;
+    font-size: 1.8rem;
+    height: 4rem;
+  }
+}
