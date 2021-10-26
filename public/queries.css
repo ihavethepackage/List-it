@@ -10,7 +10,8 @@ Instead, 1rem = 1em = 16px */
 @media (max-width: 34em) {
   .container {
     width: 30rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .inputArea {
