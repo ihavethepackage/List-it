@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Footer from "./Footer";
 import InputItem from "./InputItem";
 import ToDoItem from "./ToDoItem";
 
@@ -43,7 +42,6 @@ function App() {
             </ul>
           </div>
         </div>
-        <Footer />
       </body>
     </main>
   );
