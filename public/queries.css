@@ -25,4 +25,9 @@ Instead, 1rem = 1em = 16px */
     font-size: 1.8rem;
     height: 4rem;
   }
+
+  .addToListButton:hover,
+  .addToListButton:active {
+    background-color: rgb(138, 190, 138);
+  }
 }
