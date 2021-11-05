@@ -25,6 +25,11 @@ function InputArea(props) {
         onChange={handleInput}
         placeholder="What do I need to do ?"
         value={inputText}
+        onKeyPress={(e) => {
+          if (e.key === "Enter") {
+            handleAddButton();
+          }
+        }}
       ></input>
 
       <button className="addToListButton" onClick={handleAddButton}>
